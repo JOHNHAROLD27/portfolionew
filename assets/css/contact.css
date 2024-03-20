@@ -132,3 +132,9 @@
     transform: translate(0, 10px);
   }
 } 
+
+@media (max-width: 1366px) {
+  .form {
+    margin-top: -1rem;
+  }
+}
