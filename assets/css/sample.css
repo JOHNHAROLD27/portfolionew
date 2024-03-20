@@ -116,7 +116,12 @@ a:hover {
         text-align: center;
     }
     .icon {
-        margin-top: 25rem;
+        margin-top: 20rem;
         position: absolute;
+    }
+    .profile {
+        width: 14rem;
+        height: 14rem;
+        border: 10px solid #2A6576;
     }
 }
