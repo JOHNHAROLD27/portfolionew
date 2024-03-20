@@ -1,0 +1,122 @@
+/* CSS code for styling the HTML document */
+@font-face {
+    font-family: 'Inter';
+    src: url('path_to_inter_regular.woff2') format('woff2'),
+         url('path_to_inter_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(4, 54, 74);
+    overflow-x: hidden;
+    text-align: center;
+}
+
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns content to the ends */
+    padding: 10px 20px; /* Adds padding for spacing */
+}
+  
+.navigation {
+    display: flex;
+}
+  
+.home,
+.about,
+.contact {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.sub {
+    color: #1597d8;
+    margin-top: -2rem;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.header_title {
+    font-size: 55px;
+    margin-right: auto;
+    filter: drop-shadow(-1px 25px 1px hwb(211 25% 59% / 0.852)); 
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #1597d8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    border: 1rem solid #2A6576;
+    box-shadow: 0 0 30px #2A6576;
+}
+
+.icon {
+    margin-top: 10rem;
+}
+  
+.icons {
+    width: 40px;
+    margin: 0 8px;
+}
+  
+.home_container {
+    text-align: center;
+}
+  
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+  
+.container2 {
+    display: block;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.container2 h2 {
+    font-size: 40px;
+}
+
+
+@media (max-width: 475px) {
+    .container1 {
+        display: block;
+    }
+    .container2 {
+        text-align: center;
+    }
+    .icon {
+        margin-top: 25rem;
+        position: absolute;
+    }
+}
